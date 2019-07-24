@@ -15,7 +15,7 @@ class App extends Component {
  //update screen name for using arrow function
  
  updateScreenName = (value) => {
-   this.setState = ({screenName: value})
+   this.setState({screenName: value})
  }
 
   render(){
